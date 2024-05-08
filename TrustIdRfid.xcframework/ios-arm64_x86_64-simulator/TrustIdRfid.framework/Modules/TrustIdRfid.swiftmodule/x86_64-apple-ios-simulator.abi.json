@@ -22199,47 +22199,47 @@
       "kind": "IntegerLiteral",
       "offset": 2509,
       "length": 3,
-      "value": "129"
+      "value": "150"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Screens\/FaceDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 2522,
       "length": 2,
-      "value": "36"
+      "value": "40"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Screens\/FaceDetection.swift",
       "kind": "FloatLiteral",
-      "offset": 2875,
+      "offset": 2813,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Screens\/FaceDetection.swift",
       "kind": "StringLiteral",
-      "offset": 2906,
+      "offset": 2844,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Screens\/FaceDetection.swift",
       "kind": "FloatLiteral",
-      "offset": 3024,
+      "offset": 2962,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Screens\/FaceDetection.swift",
       "kind": "StringLiteral",
-      "offset": 3055,
+      "offset": 2993,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Screens\/FaceDetection.swift",
       "kind": "StringLiteral",
-      "offset": 3176,
+      "offset": 3114,
       "length": 2,
       "value": "\"\""
     },
@@ -29619,187 +29619,187 @@
       "kind": "StringLiteral",
       "offset": 210,
       "length": 39,
-      "value": "\"(P[A-Z\\d<])([A-Z]{3})([A-Z\\d<]{39})\""
+      "value": "\"(P[A-Z0-9<])([A-Z]{3})([A-Z0-9<]{39})\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
       "offset": 287,
-      "length": 96,
-      "value": "\"([A-Z\\d<]{9})(\\d)([A-Z]{3})(\\d{6})(\\d)([M|F|X|<])(\\d{6})(\\d)([A-Z\\d<]{14})([\\d<])(\\d)\""
+      "length": 108,
+      "value": "\"([A-Z0-9<]{9})([0-9])([A-Z]{3})([0-9]{6})([0-9])([M|F|X|<])([0-9]{6})([0-9])([A-Z0-9<]{14})([0-9<])([0-9])\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 447,
+      "offset": 459,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
-      "offset": 1269,
+      "offset": 1281,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
-      "offset": 1278,
+      "offset": 1290,
       "length": 1,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
-      "offset": 1288,
+      "offset": 1300,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
-      "offset": 1625,
+      "offset": 1637,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
-      "offset": 1686,
+      "offset": 1698,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
-      "offset": 1747,
+      "offset": 1759,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
-      "offset": 1963,
+      "offset": 1975,
       "length": 104,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
-      "offset": 1981,
+      "offset": 1993,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
-      "offset": 2000,
+      "offset": 2012,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
-      "offset": 2014,
+      "offset": 2026,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
-      "offset": 2034,
+      "offset": 2046,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
-      "offset": 2047,
+      "offset": 2059,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
-      "offset": 2066,
+      "offset": 2078,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "Dictionary",
-      "offset": 2196,
+      "offset": 2208,
       "length": 443,
       "value": "[(\"0\", \"0\"), (\"1\", \"1\"), (\"2\", \"2\"), (\"3\", \"3\"), (\"4\", \"4\"), (\"5\", \"5\"), (\"6\", \"6\"), (\"7\", \"7\"), (\"8\", \"8\"), (\"9\", \"9\"), (\"<\", \"0\"), (\" \", \"0\"), (\"A\", \"10\"), (\"B\", \"11\"), (\"C\", \"12\"), (\"D\", \"13\"), (\"E\", \"14\"), (\"F\", \"15\"), (\"G\", \"16\"), (\"H\", \"17\"), (\"I\", \"18\"), (\"J\", \"19\"), (\"K\", \"20\"), (\"L\", \"21\"), (\"M\", \"22\"), (\"N\", \"23\"), (\"O\", \"24\"), (\"P\", \"25\"), (\"Q\", \"26\"), (\"R\", \"27\"), (\"S\", \"28\"), (\"T\", \"29\"), (\"U\", \"30\"), (\"V\", \"31\"), (\"W\", \"32\"), (\"X\", \"33\"), (\"Y\", \"34\"), (\"Z\", \"35\")]"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 2667,
+      "offset": 2679,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 2685,
+      "offset": 2697,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "Array",
-      "offset": 2721,
+      "offset": 2733,
       "length": 9,
       "value": "[7, 3, 1]"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
-      "offset": 2816,
+      "offset": 2828,
       "length": 6,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
-      "offset": 2821,
+      "offset": 2833,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 2880,
+      "offset": 2892,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 2980,
+      "offset": 2992,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 2985,
+      "offset": 2997,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 3028,
+      "offset": 3040,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/TrustIdRfid\/TrustIdRfid\/Components\/MRZParser\/PassportParser.swift",
       "kind": "StringLiteral",
-      "offset": 3098,
+      "offset": 3110,
       "length": 8,
       "value": "\"yyMMdd\""
     },

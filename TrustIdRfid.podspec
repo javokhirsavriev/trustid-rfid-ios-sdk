@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "TrustIdRfid"
-  spec.version            = "1.0"
+  spec.version            = "1.1"
   spec.platform = :ios, '15.0'
   spec.ios.deployment_target = '15.0'
   spec.summary            = "TrustIdRfid Framework"

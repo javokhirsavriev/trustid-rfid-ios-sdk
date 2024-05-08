@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/TrustIdRfid.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		DL0HPFHYnQXuO1km4GFU8o46D8k=
+		phlXU6ncCaINAWh17ZZQP+Btr20=
 		</data>
 		<key>Modules/TrustIdRfid.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/TrustIdRfid.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		yrobx6j7LTFBvEwBS+G942WJyvE=
+		FyZGXcgeLn7vP1+jeIGSTbq+qjE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -84,7 +84,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uN8FucNf+7+M1w/P1e62yiCdUXj0t8Ot8MfkTroLIeo=
+			RYSwURvYclakZMvUi4IwImIzDAt9kgoIkCAHjU3llTI=
 			</data>
 		</dict>
 		<key>Modules/TrustIdRfid.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EtY9JgtBQalVp2+r6xe/byqdBmijDF8rBV/aU6HHYuo=
+			o2Md5UNOWx/6Cc5rQfLnSPdKEblOPJgafwQIIU3UFvY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
