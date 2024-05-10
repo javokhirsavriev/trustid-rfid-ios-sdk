@@ -308,21 +308,45 @@ SWIFT_CLASS("_TtC11TrustIdRfid14PassportReader") SWIFT_AVAILABILITY(ios,introduc
 
 
 
+@class RfIdConfig;
 @protocol RfIdClientDelegate;
 
 SWIFT_CLASS("_TtC11TrustIdRfid10RfIdClient")
 @interface RfIdClient : NSObject
-+ (void)startWithDelegate:(id <RfIdClientDelegate> _Nonnull)delegate;
++ (void)showScannerWithConfig:(RfIdConfig * _Nonnull)config withDelegate:(id <RfIdClientDelegate> _Nonnull)delegate;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class RfIdResult;
 @class NSString;
 
 SWIFT_PROTOCOL("_TtP11TrustIdRfid18RfIdClientDelegate_")
 @protocol RfIdClientDelegate
-- (void)onSuccessWithCameraBase64:(NSString * _Nonnull)cameraBase64 passportBase64:(NSString * _Nonnull)passportBase64 rfid:(NSString * _Nonnull)rfid;
+- (void)onCompletionWithResult:(RfIdResult * _Nonnull)result;
 - (void)onFailureWithMessage:(NSString * _Nonnull)message;
-- (void)onUserExited;
+- (void)onCancelled;
+@end
+
+
+SWIFT_CLASS("_TtC11TrustIdRfid10RfIdConfig")
+@interface RfIdConfig : NSObject
+@property (nonatomic) BOOL withNfc;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11TrustIdRfid10RfIdResult")
+@interface RfIdResult : NSObject
+@property (nonatomic, copy) NSString * _Nonnull cameraBase64;
+@property (nonatomic, copy) NSString * _Nonnull sourceBase64;
+@property (nonatomic, copy) NSString * _Nonnull fullname;
+@property (nonatomic, copy) NSString * _Nonnull gender;
+@property (nonatomic, copy) NSString * _Nonnull dateOfBirth;
+@property (nonatomic, copy) NSString * _Nonnull personalNumber;
+@property (nonatomic, copy) NSString * _Nonnull documentNumber;
+@property (nonatomic, copy) NSString * _Nonnull dateOfExpiry;
+@property (nonatomic, copy) NSString * _Nonnull mrz;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -649,21 +673,45 @@ SWIFT_CLASS("_TtC11TrustIdRfid14PassportReader") SWIFT_AVAILABILITY(ios,introduc
 
 
 
+@class RfIdConfig;
 @protocol RfIdClientDelegate;
 
 SWIFT_CLASS("_TtC11TrustIdRfid10RfIdClient")
 @interface RfIdClient : NSObject
-+ (void)startWithDelegate:(id <RfIdClientDelegate> _Nonnull)delegate;
++ (void)showScannerWithConfig:(RfIdConfig * _Nonnull)config withDelegate:(id <RfIdClientDelegate> _Nonnull)delegate;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class RfIdResult;
 @class NSString;
 
 SWIFT_PROTOCOL("_TtP11TrustIdRfid18RfIdClientDelegate_")
 @protocol RfIdClientDelegate
-- (void)onSuccessWithCameraBase64:(NSString * _Nonnull)cameraBase64 passportBase64:(NSString * _Nonnull)passportBase64 rfid:(NSString * _Nonnull)rfid;
+- (void)onCompletionWithResult:(RfIdResult * _Nonnull)result;
 - (void)onFailureWithMessage:(NSString * _Nonnull)message;
-- (void)onUserExited;
+- (void)onCancelled;
+@end
+
+
+SWIFT_CLASS("_TtC11TrustIdRfid10RfIdConfig")
+@interface RfIdConfig : NSObject
+@property (nonatomic) BOOL withNfc;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11TrustIdRfid10RfIdResult")
+@interface RfIdResult : NSObject
+@property (nonatomic, copy) NSString * _Nonnull cameraBase64;
+@property (nonatomic, copy) NSString * _Nonnull sourceBase64;
+@property (nonatomic, copy) NSString * _Nonnull fullname;
+@property (nonatomic, copy) NSString * _Nonnull gender;
+@property (nonatomic, copy) NSString * _Nonnull dateOfBirth;
+@property (nonatomic, copy) NSString * _Nonnull personalNumber;
+@property (nonatomic, copy) NSString * _Nonnull documentNumber;
+@property (nonatomic, copy) NSString * _Nonnull dateOfExpiry;
+@property (nonatomic, copy) NSString * _Nonnull mrz;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
